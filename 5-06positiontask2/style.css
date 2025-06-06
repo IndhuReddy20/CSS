@@ -1,0 +1,135 @@
+.container{
+    background-color: azure;
+    border: 4px solid;
+    height: 500px;
+    width: 350px;
+    position: relative;
+    margin: 40px 500px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 30px 30px 15px 15px;
+    position: relative;
+}
+.header{
+    height: 70px;
+    width: 350px;
+    background-color: rgb(38, 205, 149);
+    border-radius: 25px 25px 0px 0px;
+    position: sticky;
+    top:0%;
+    display: inline-block;
+    
+}
+#arrow{
+    font-size:30px;
+    justify-content: center;
+    position: absolute;
+    top:30%;
+    left:5%;
+}
+img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    position: absolute;
+    top:15%;
+    left:15%;
+}
+.name{
+    font-size: 25px;
+    position: absolute;
+    top:30%;
+    left: 33%;
+}
+#call{
+    font-size: 30px;
+    position: absolute;
+    top:30%;
+    right: 70px;
+}
+
+#video{
+    font-size: 30px;
+    position: absolute;
+    top:30%;
+    right: 35px;
+}
+#menu{
+    font-size: 30px;
+    position: absolute;
+    top:30%;
+    right: 10px;
+}
+.main{
+    height: 360px;
+    /* border: 2px solid red; */
+    overflow: scroll;
+    scrollbar-width: none;
+} 
+.centerdate{
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(167, 238, 174);
+    border-radius: 20px 20px 20px 20px;
+    width: 28%;
+    justify-content: center;
+    padding: 1px 1px 1px 1px;
+    margin-bottom: 10%;
+}
+.leftmessage h4{
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(240, 159, 210);
+    margin-left: 3px;
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px 20px 20px 20px;
+}
+.rightmessage h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    background-color: rgb(196, 184, 239);
+    margin-left: 187px;
+    width: 40%;
+    padding: 10px;
+    border-radius: 20px 20px 20px 20px;
+} 
+.footer{
+    height: 70px;
+    width: 350px;
+    background-color: rgb(212, 207, 228);
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: 0%;    
+}
+.labels{
+    display: inline-block;
+    position: absolute;
+    top:20%;
+    left:2%;
+    font-size: 25px;
+    background-color: rgb(245, 240, 240);
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+    padding:5px;
+    width: 80%;
+    height: 40%;
+}
+#input{
+    height: 25px;
+}
+#rupee{
+    border: 2px solid;
+    border-radius: 100%;
+}
+.micro{
+    position: absolute;
+    right: 8px;
+    top:30%;
+    font-size: 25px;
+    background-color:rgb(3, 148, 100);
+    padding: 4px;
+    border-radius: 100%;
+}
