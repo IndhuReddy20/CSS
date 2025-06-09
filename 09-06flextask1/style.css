@@ -23,6 +23,8 @@
 .navbar .nav-right {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  flex-wrap: 1 1 20px;
 }
 
 .search-icon {
